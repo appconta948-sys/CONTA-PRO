@@ -210,11 +210,7 @@ def enviar_correo(destinatario, asunto, mensaje_html):
         return False
 msg = EmailMessage()
 from email.message import EmailMessage
-
-Jenni Caballero <caballerojen01@gmail.com>
-2:25 PM (0 minutes ago)
 to me
-
 import smtplib
 from email.message import EmailMessage
 import streamlit as st
