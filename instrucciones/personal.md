@@ -1,0 +1,3 @@
+# CUENTAS personal 
+| Debito | Credito |
+| :--- | :--- |

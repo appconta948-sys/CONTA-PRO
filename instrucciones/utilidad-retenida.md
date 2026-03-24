@@ -1,0 +1,3 @@
+# UTILIDAD RETENIDA 
+| Debito | Credito |
+| :--- | :--- |

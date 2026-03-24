@@ -1,0 +1,3 @@
+# COMPRAS 
+| Debito | Credito |
+| :--- | :--- |

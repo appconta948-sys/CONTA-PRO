@@ -1,0 +1,3 @@
+# GASTOS 
+| Debito | Credito |
+| :--- | :--- |

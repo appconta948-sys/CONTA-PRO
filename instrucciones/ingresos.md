@@ -1,0 +1,3 @@
+# INGRESOS 
+| Debito | Credito |
+| :--- | :--- |
