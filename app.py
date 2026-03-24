@@ -808,7 +808,6 @@ flask_thread.start()
 # ============================================
 init_db()
 desactivar_suscripciones_expiradas()
-auth.check_authentification()
 
 if not st.session_state.get('connected', False):
     st.title("🔐 CONTA PRO")
