@@ -1,0 +1,1 @@
+Capacidad y destreza del contador para interpretar, resumir y presentar los datos de manera que sean útiles para la toma de decisiones.

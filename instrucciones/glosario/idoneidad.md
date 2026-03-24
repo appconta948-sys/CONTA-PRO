@@ -1,0 +1,2 @@
+Cualidad de que la información sea apta y capaz para el fin que se requiere (decidir si invertir o no).
+​periodo-contable.md: Lapso de tiempo (mensual/anual) en el que se mide el resultado de la empresa.

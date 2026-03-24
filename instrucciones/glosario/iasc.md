@@ -1,0 +1,1 @@
+ El antecesor del IASB; fue el comité original que creó las primeras normas (NIC).

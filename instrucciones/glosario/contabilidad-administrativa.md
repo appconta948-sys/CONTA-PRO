@@ -1,0 +1,1 @@
+Orientada a la gestión interna. Ayuda a los dueños a planear y controlar (ej: ¿cuánto nos cuesta producir cada unidad?).

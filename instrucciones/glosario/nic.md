@@ -1,0 +1,1 @@
+(Normas Internacionales de Contabilidad). Normas antiguas que siguen vigentes y complementan a las NIIF.

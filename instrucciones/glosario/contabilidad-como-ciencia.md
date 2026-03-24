@@ -1,0 +1,1 @@
+Disciplina que utiliza un método sistemático (observación y medición) para generar conocimiento verificable sobre el patrimonio.

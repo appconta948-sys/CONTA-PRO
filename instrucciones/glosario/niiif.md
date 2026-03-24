@@ -1,0 +1,1 @@
+(Normas Internacionales de Información Financiera). El estándar global que permite que la contabilidad se entienda en cualquier país.

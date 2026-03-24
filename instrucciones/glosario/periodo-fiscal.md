@@ -1,0 +1,1 @@
+Tiempo fijado por la ley de cada país para declarar y pagar impuestos (suele ser anual, pero con pagos mensuales).

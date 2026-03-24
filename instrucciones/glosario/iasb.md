@@ -1,0 +1,1 @@
+(International Accounting Standards Board). El organismo internacional que dicta las reglas (NIIF) hoy en día.

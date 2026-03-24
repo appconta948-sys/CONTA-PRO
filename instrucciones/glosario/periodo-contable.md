@@ -1,0 +1,1 @@
+Lapso de tiempo (mensual/anual) en el que se mide el resultado de la empresa.

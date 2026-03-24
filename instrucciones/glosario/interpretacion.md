@@ -1,0 +1,1 @@
+Acción de analizar los estados financieros para entender la salud real del negocio (¿estamos ganando o solo moviendo dinero?).

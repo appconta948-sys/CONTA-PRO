@@ -1,0 +1,1 @@
+Comité de Interpretaciones de las NIIF. Son los que aclaran dudas cuando una norma es difícil de aplicar.

@@ -1,0 +1,1 @@
+Proceso de agrupar las transacciones en categorías (Activos, Pasivos, etc.) dentro del [puc-latam.md].

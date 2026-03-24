@@ -1,0 +1,1 @@
+Sistema de control y registro de los gastos e ingresos y demás operaciones económicas que realiza una entidad. Es el lenguaje de los negocios.
