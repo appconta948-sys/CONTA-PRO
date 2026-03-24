@@ -210,7 +210,6 @@ def enviar_correo(destinatario, asunto, mensaje_html):
         return False
 msg = EmailMessage()
 from email.message import EmailMessage
-to me
 import smtplib
 from email.message import EmailMessage
 import streamlit as st
