@@ -815,7 +815,6 @@ if not st.session_state.get('connected', False):
     # Mostrar usuarios activos (para marketing)
     usuarios_activos = obtener_usuarios_activos()
     st.metric("Usuarios Activos", len(usuarios_activos))
-    auth.login()
 else:
     user_info = st.session_state['user_info']
     user_email = user_info.get('email')
