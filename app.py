@@ -210,30 +210,46 @@ def enviar_correo(destinatario, asunto, mensaje_html):
         return False
 msg = EmailMessage()
 from email.message import EmailMessage
+
+Jenni Caballero <caballerojen01@gmail.com>
+2:25 PM (0 minutes ago)
+to me
+
 import smtplib
+from email.message import EmailMessage
+import streamlit as st
+
 def enviar_correo_pro(tipo, destinatario, asunto, cuerpo):
-    # tipo puede ser "pqr", "info" o "gerencia"
+    """
+    tipo puede ser: "par", "info" o "gerencia"
+    """
+    # Configuración del remitente según el tipo
     remitente = f"{tipo}@tuamigocontable.com"
-
-    msg = EmailMessage()
-    msg.set_content(cuerpo)
-    msg['Subject'] = asunto
-    msg['From'] = remitente
-    msg['To'] = destinatario
-
-    # Ejemplo de envío (ajusta según tu servidor SMTP)
-    with smtplib.SMTP('smtp.tuamigocontable.com', 587) as server:
-        server.starttls()
-        server.login(remitente, "tu_contraseña")
-        server.send_message(msg)
-    # Usamos los secretos que pusiste en el .toml o en Railway
+    
+    # Configuración del servidor SMTP (ajusta según tu proveedor)
+    SMTP_SERVER = "smtp.gmail.com" # o el servidor que uses
+    SMTP_PORT = 587
+    SMTP_USER = "tu_correo@tuamigocontable.com" # correo desde el que envías
+    SMTP_PASSWORD = st.secrets["SMTP_PASSWORD"] # usa secrets para mayor seguridad
+    
     try:
-        with smtplib.SMTP_SSL("smtp.resend.com", 465) as server:
-            server.login("resend", st.secrets["RESEND_API_KEY"])
+        # Crear el mensaje
+        msg = EmailMessage()
+        msg.set_content(cuerpo)
+        msg['Subject'] = asunto
+        msg['From'] = remitente
+        msg['To'] = destinatario
+        
+        # Enviar el correo
+        with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
+            server.starttls() # iniciar TLS
+            server.login(SMTP_USER, SMTP_PASSWORD)
             server.send_message(msg)
+        
         return True
+        
     except Exception as e:
-        st.error(f"Error al enviar: {e}")
+        st.error(f"Error enviando correo: {e}")
         return False
 
 
