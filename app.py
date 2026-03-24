@@ -105,17 +105,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ============================================
-# 2. AUTENTICACIÓN GOOGLE
-# ============================================
-auth = Authenticate(
-    secret_header="google_user",
-    client_id=st.secrets.get("GOOGLE_CLIENT_ID", ""),
-    client_secret=st.secrets.get("GOOGLE_CLIENT_SECRET", ""),
-    redirect_uri="https://tuamigocontable.com",
-    cookie_name="conta_pro_cookie",
-    key="secret_key_pro",
-)
 
 # ============================================
 # 3. BASE DE DATOS SQLITE (SUSCRIPCIONES)
