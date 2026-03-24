@@ -17,7 +17,8 @@ import threading
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from fpdf import FPDF
-from flask 
+from flask import Flask, request, jsonify
+
 # ============================================
 # 1. CONFIGURACIÓN DE PÁGINA Y ESTILOS (con responsive)
 # ============================================
