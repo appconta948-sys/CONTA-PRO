@@ -887,4 +887,3 @@ else:
         pantalla_legal()
 
 
-os.environ["STREANILIT_SERVR_PORT" =os.environ.get("PORT", "8080") os.environ["STREAMLITSERVERADDRESS"1="0.0.0.0"
